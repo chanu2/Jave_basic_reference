@@ -41,13 +41,13 @@
 
 
 
-
+//데이터 타입 정수형
 // package ch06;
 
 // public class VariableTest {
 
 // 	public static void main(String[] args) {
-// 		byte bnum=127;
+// 		byte bnum=127;                                  
 // 		System.out.println(bnum);
 // 		long num=12345678900L;
 // 		System.out.println(num);
@@ -57,7 +57,7 @@
 
 
 
-
+//데이터 타입 실수형
 //실수는 리터럴에 의해서 기본적으로 8BYTE인 double에 저장된다
 
 
