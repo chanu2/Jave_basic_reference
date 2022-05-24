@@ -196,3 +196,89 @@
 
 // }
 
+
+
+
+//상수(constant) 선언하기
+
+
+// 상수를 사용하는 이유 가독성이 좋아지며
+//상수는 변하지 않는 수
+//원주률 3.14, 1년 12개월 등
+//final 예약어를 사용하여 선언
+//상수를 사용하면 변하지 않는 값을 반복하여 사용할 때 의미있는 문자로 인식하기 쉽고
+//혹, 변하더라도 선언한 부분만 변경하면 되므로 여러부분을 수정할 필요가 없음
+
+
+/*
+package ch12;
+
+public class Final {
+
+	public static void main(String[] args) {
+		final int Max_Num=100;   //final 상수로 고정
+		final int Mini_Num;
+		Mini_Num =20;
+		//Max_Num=20;   이미 고정된 값이 있기 때문에 바꿀 수 없다.
+	
+		System.out.println(Max_Num);
+		System.out.println(Mini_Num);
+		
+	}
+
+}     */
+
+
+
+
+//**리터럴**
+
+// 프로그램에서 사용하는 숫자, 문자, 논리값을 뜻함
+// 리터럴은 상수 풀(constant pool)에 있음
+// 정수 리터럴은 int 로 실수 리터럴은 double 로 저장됨
+// 정수의 범위가 넘어가는 경우는 L,l을 float로 사용하려는 경우는 F,f 식별자를 써줘야 함
+
+
+
+
+// 형변환
+
+// 서로 다른 자료형 간에 연산등의 수행을 위해 하나의 자료형으로 통일하는 것
+// 묵시적 형 변환(explicit type conversion, 자동 형 변환)과 명시적 형 변환(implicit type conversion, 강제 형 변환)이 있음
+// 바이트 크기가 작은 자료형에서 큰 자료형으로 형 변환은 자동으로 이루어 짐
+// 덜 정밀한 자료형에서 더 정밀한 자료형으로읜 형 변환은 자동으로 이루어 짐  int->float
+
+
+
+
+// package ch13;
+
+// public class Riteral {
+
+// 	public static void main(String[] args) {
+// 		/*int inum = 2266;    
+// 		byte bnum = (byte)inum;    강제 캐스팅하게 되면 손실이 발생한다.
+		
+// 		System.out.println(bnum);   
+		
+// 		double dnum = 3.14;   
+// 		int jnum = (int)dnum;
+// 		System.out.println(jnum); */
+		
+		
+// 		double dnum =1.14;
+// 		float fnum = 0.9f;
+// 		// 형변환을 하는 순서에 따라 값이 변한다
+// 		int inum = (int)dnum + (int)fnum;        
+// 		int i2num = (int)(dnum+fnum);  //첫번째 double 형으론 변환됨  
+// 		System.out.println(inum);       
+// 		System.out.println(i2num);
+				
+		
+// 	}
+
+// }  
+
+
+
+
