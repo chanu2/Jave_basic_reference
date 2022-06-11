@@ -17,7 +17,7 @@ public class Subway {
 	}
 	
 	public void subwayShow() {
-		System.out.println(subwayNumber+"ȣ���� ����ö�� �°� ���� "+personnel+"�� �̰�,"+" ������ "+ income+"�� �Դϴ�");
+		System.out.println(subwayNumber+"호선의 지하철의 승객 수는 "+personnel+"명 이고,"+" 수입은 "+ income+"원 입니다");
 	}
 
 }
