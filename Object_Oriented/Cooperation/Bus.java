@@ -15,7 +15,7 @@ public class Bus {
 	}
 	
 	public void busShow() {
-		System.out.println(busNumber+"���� ������ �°� ���� "+personnel+"�� �̰�,"+" ������ "+ income+"�� �Դϴ�");
+		System.out.println(busNumber+"번의 버스의 승객 수는 "+personnel+"명 이고,"+" 수입은 "+ income+"원 입니다");
 	}
 	 
 }
