@@ -72,3 +72,25 @@ public class Person {     // 생성자에서 this를 이용하여 다른 생성�
 	 
 
 }
+
+
+
+
+
+
+THIS 에시
+                                                                            stack                                 heap
+public static void main(String[] args){                                 ---------------                         
+	BirthDay day= new BirthDay();                                
+	day.setYear(2000);                                              ---------------                  
+	................                                   setYear()         this         ------------------>
+	                                                                ---------------                        [year,day,month]
+                                                                     |-----   day         ----------------->                           
+                                                           main()    |   ---------------
+}                                                                    |-----   args
+	                                                                ---------------
+        
+
+// 생성된 인스턴스 메모리의 주소를 가진다 
+
+
