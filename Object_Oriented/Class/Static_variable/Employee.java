@@ -1,7 +1,7 @@
 package ch15;
 
 public class Employee {
-	private static int serialNum=1000;    // public 가능하다
+	private static int serialNum=1000;    // public 가능하다 그러나 시리얼 넘버에 다른사람이 접근하면 안된다
 	
 	private int employId;
 	private String employName;
@@ -9,7 +9,9 @@ public class Employee {
 	
 	
 	
-	public static int getSerialNum()  {
+	public static int getSerialNum()  {  // 다른 사람이 마음대로 바꾸면 안되기 떄문에 setter를 삭제
+	  //employName="찬우" 인스턴스가 로드되지 않은 상태일 수도 있기 때문에 가져다 쓸 수 없다
+	  //int i =0; 과 같은 지역 변수는 가능하다	
 		return serialNum;
 	}
 	
@@ -22,7 +24,7 @@ public class Employee {
 	public int getEmployId() {
 		return employId;
 	}
-	public void setEmployId(int employId) {
+	public void setEmployId(int employId) {    
 		this.employId = employId;
 	}
 	public String getEmployName() {
