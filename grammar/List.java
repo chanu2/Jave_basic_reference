@@ -72,3 +72,29 @@ public class CharArrayTest {
 
 */
 
+
+
+// 2차원 리스트 
+
+
+
+package ch22;
+
+public class TwoDimetionTest {
+
+	public static void main(String[] args) {
+		int[][] arr = {{1,2,3},{1,2,3,4}};  //각 행
+		
+		int i,j;
+		
+		for(i=0; i<arr.length;i++) {  // arr.length는 행의 개수
+			for(j=0; j<arr[i].length;j++){
+				System.out.print(arr[i][j]+",");  //같은 줄에 출력하기 print!!
+			}
+			System.out.println("\t"+arr[i].length);  // \t는 탭의 역할을 한다.
+			
+			
+		}
+	}
+
+}
