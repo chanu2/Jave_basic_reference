@@ -46,3 +46,29 @@ ids = new int[] {10, 20, 30};            // 선언후 배열을 생성하는 경
 
 
 
+// 배열을 통한 Alphabets 출력 프로그램
+
+/*
+package ch18;
+
+public class CharArrayTest {
+
+	public static void main(String[] args) {
+		char alphabets[] = new char[26];   // 배열 선언
+		char al = 'A';
+		
+		for (int i=0;i<alphabets.length;i++) {
+			 alphabets[i]=al++;   		}  // 문자와 정수 합이 가능하다
+		for(char all : alphabets) {       // 전체를 도는 코드 
+			System.out.println(all+" "+(int)all);
+			
+		
+		}
+		System.out.println(1+'A'); // 문자도 정수이다
+	
+	}
+
+}
+
+*/
+
