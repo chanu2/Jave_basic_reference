@@ -20,7 +20,7 @@ public class VipCustomer extends Customer {  // 비슷하고 필요하기 떄문
 	public VipCustomer(int customerId, String customerName) {  //무조건 필요한 것은 아니다. 그래도
 		super(customerId, customerName);
 		customerGrade="VIP";
-		bonusRatio=0.05;
+		bonusRatio=0.05;                       // 자기가 필요한 변수를 만들 수 있다. 상속받은 이외의 변수들을!!
 		saleRatio=0.1;
 		System.out.println("VipCustomer(int,String) call"); // int,String이 호출됨
 		}
