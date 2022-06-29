@@ -40,11 +40,4 @@ class Student => class Student extends Object
 ################################################################################
 
 
-toString() 메서드
-
-
-객체의 정보를 String으로 바꾸어서 사용할 때 쓰임
-
-
-String이나 Integer 클래스는 이미 재정의 되어 있음
 
