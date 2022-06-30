@@ -2,7 +2,7 @@ package ch17;
 
 public class LeastJob implements Scheduler {
 
-	@Override
+	@Override  // 각각에 맞게 오버라이딩한다.
 	public void getNextCall() {
 		System.out.println("상담전화를 순서대로 대기열에서 가져옵니다.");
 	}
