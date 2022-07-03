@@ -1,6 +1,6 @@
 package ch04;
 
-import ch02.MyArray;
+import ch02.MyArray; //ch02.MyArray 메서드를 이용하기 위해서 import해준다. 
 
 public class MyArrayStack {
 	 MyArray arrayStack;  // ch02 불러오기
