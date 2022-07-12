@@ -26,7 +26,7 @@ public class ThreadTest {
 		
 //		Runnable run = new Runnable() {
 //			
-//			@Override                       하나의 쓰레드가 되서 바로 실행 가능하다(이런 방법도 있다)
+//			@Override                       하나의 쓰레드가 돼서 바로 실행 가능하다(이런 방법도 있다)
 //			public void run() {
 //				System.out.println("run");
 //			}
