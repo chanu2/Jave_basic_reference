@@ -1,5 +1,6 @@
 package ch20;
 
+
 class MyThread implements Runnable{  // run을 구현해 줘야한다   // 이미 다른 것을 extends했을 때  class MyThread implements Runnable
 	
 	public void run() {   
@@ -11,7 +12,7 @@ class MyThread implements Runnable{  // run을 구현해 줘야한다   // 이�
 	}
 }
 
-public class ThreadTest {
+public class ThreadTest1 {
 
 	public static void main(String[] args) {
 
@@ -39,4 +40,5 @@ public class ThreadTest {
 	}
 	
 }
+
 
