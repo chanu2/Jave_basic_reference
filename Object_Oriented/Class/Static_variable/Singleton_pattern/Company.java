@@ -7,7 +7,7 @@ public class Company {  //하나의 회사라는 객체는 유일해야 한다.
 		                  // 생성자를 아무나 접근 못 하도록 private 해준다
 	}
 	
-	public static Company getInstance() {   // 다른 곳에서 그래도 인스턴스에 접근하기 위해사
+	public static Company getInstance() {   // 다른 곳에서 그래도 인스턴스에 접근하기 위해
 		if (instance==null) {
 			instance=new Company();  // 방어적인 코드
 		}
